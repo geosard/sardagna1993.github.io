@@ -1,0 +1,46 @@
+h2 {
+
+	color: red;
+	text-align: center;
+	border: 4px black solid;
+	background-color: grey;
+}
+p {
+	letter-spacing: 4px;
+	text-align: center;
+
+}
+
+img {
+	float: left;
+	border: solid 5px;
+	margin: 5px;
+	}
+
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+ul {
+	text-align: center;
+}
+
+.um:hover {
+	color: black;
+	border: dashed grey;
+	text-align: center;
+
+}
+.dois {
+	border: dashed grey:hover;
+	text-align: left;
+
+}
+
+.boxmodel {
+	border: 5px solid red;
+	display: inline-block;
+	padding: 20px 5px 6px 10px;
+}
