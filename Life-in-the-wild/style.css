@@ -20,18 +20,6 @@ img {
 }
  
 
-#img1 {
-	transition: 1s;
-}
-
-#img2 {
-	transition: 3s;
-
-}
-#img1:hover {
-	transform: scale(1.5);
-}
-
-#img2:hover {
+.container img:hover {
 	transform: scale(1.5);
 }
