@@ -1,0 +1,139 @@
+body {
+    margin: auto 0px;
+
+}
+
+.zone {
+    margin: 5px;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    /*border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+}
+
+.contato {
+    margin: 0px 0px 0px 0px;
+    color: black;
+    justify-content: justify;
+    display: inline-table;
+    /*list-style: none;*/
+     margin: 5px;
+     border: 1px solid black;
+     max-width: 600px;
+}
+
+form #input-message {
+    width: 80%;
+    height: 80%;
+
+ }
+
+.main-nav {
+    padding: 0px 0px 0px 5px;
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+    margin: 0px;
+
+}
+
+.grid-wrapper {
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    grid-gap: 0px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+}
+
+.grid-wrapper img {
+    height: 200px;
+    width: 150px;
+    margin: 20px; 
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0px;
+    }
+}
+
+li {
+    padding: 20px;
+
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.push {
+    margin-left: auto;
+}
+
+li a:hover {
+    box-shadow:rgba(0,0,0,0.3) 0px 5px 5px;
+    padding: 10px;
+
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+.green{
+    background: #3B3738; /* Old browsers */
+    background: -moz-linear-gradient(top, #3B3738 0%, #4E4245 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3B3738), color-stop(100%,#4E4245)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3B3738 0%,#4E4245 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3B3738 0%,#4E4245 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3B3738 0%,#4E4245 100%); /* IE10+ */
+    background: linear-gradient(top, #3B3738 0%,#4E4245 100%); /* W3C */
+}
+
+.red{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
+
+.blue{
+    background: white;
+}
+
+footer {
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;    
+    background: #3B3738; /* Old browsers */
+    background: -moz-linear-gradient(top, #3B3738 0%, #4E4245 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3B3738), color-stop(100%,#4E4245)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3B3738 0%,#4E4245 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3B3738 0%,#4E4245 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3B3738 0%,#4E4245 100%); /* IE10+ */
+    background: linear-gradient(top, #3B3738 0%,#4E4245 100%); /* W3C */
+}
