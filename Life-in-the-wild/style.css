@@ -16,10 +16,10 @@ img {
 	width: 450px;
 	height: 300px;
 	margin: 5px;
+	transition: 1s;
 
 }
  
-
-.container img:hover {
+ .container img:hover {
 	transform: scale(1.5);
 }
