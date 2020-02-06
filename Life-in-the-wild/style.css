@@ -12,15 +12,15 @@ h1 {
 	margin: 30px;
 	}
 
-.container img:hover {
+img {
 	width: 450px;
 	height: 300px;
 	margin: 5px;
 	transition: 1s;
-	transform: scale(1.5);
+
 }
  
-/* .container img:hover {
+ .container img:hover {
 	transform: scale(1.5);
-
-	}*/
+	
+	}
