@@ -20,7 +20,7 @@ img {
 
 }
  
- .container img:hover {
+ .container img {
 	display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
@@ -31,3 +31,6 @@ img {
     transition-property: transform;
 }
 
+.container img:hover, .container img:focus, .container img:active {
+    transform: scale(1.1);
+}
