@@ -23,4 +23,5 @@ img {
  .container img:hover {
 	transform: scale(1.5);
 	justify-content: center;
+	transform: perspective(1px) translateZ(0);
 }
