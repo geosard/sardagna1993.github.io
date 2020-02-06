@@ -12,25 +12,15 @@ h1 {
 	margin: 30px;
 	}
 
-img {
+img:hover {
 	width: 450px;
 	height: 300px;
 	margin: 5px;
 	transition: 1s;
-
+	transform: scale(1.5);
 }
  
- .container img {
-	display: inline-block;
-    vertical-align: middle;
-    transform: translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-    backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    transition-duration: 0.3s;
-    transition-property: transform;
-}
+/* .container img:hover {
+	transform: scale(1.5);
 
-.container img:hover, .container img:focus, .container img:active {
-    transform: scale(1.1);
-}
+	}*/
