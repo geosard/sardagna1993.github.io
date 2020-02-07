@@ -21,5 +21,15 @@ img {
 }
  
  .container img:hover {
-	transform: scale(1.5);
+	animation-name: center;
+	animation-duration: 1s;
+}
+
+@keyframes center {
+	0% {
+		transform: translateX(100px);
+	}
+	100% {
+		transform: translateX(0);
+	}
 }
