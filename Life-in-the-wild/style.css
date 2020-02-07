@@ -21,11 +21,11 @@ img {
 }
  
  .container img:hover {
-	animation-name: center;
+	animation-name: movetoCenter;
 	animation-duration: 1s;
 }
 
-@keyframes center {
+@keyframes movetoCenter {
 	0% {
 		transform: translateX(100px);
 	}
